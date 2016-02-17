@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44428" started-at="2016-02-17T14:27:55Z" finished-at="2016-02-17T14:28:39Z">
+    <groups>
+      <group name="Full">
+        <method signature="NewTest.f()[pri:0, instance:com.Android.Bravo.Auto_Test.NewTest@642cb3dc]" name="f" class="com.Android.Bravo.Auto_Test.NewTest"/>
+        <method signature="SecondTest.f()[pri:0, instance:com.Android.Bravo.Auto_Test.SecondTest@32d463e5]" name="f" class="com.Android.Bravo.Auto_Test.SecondTest"/>
+        <method signature="TC12417_Tab.Tab()[pri:0, instance:com.Android.Bravo.Auto_Test.TC12417_Tab@75d8ac9d]" name="Tab" class="com.Android.Bravo.Auto_Test.TC12417_Tab"/>
+      </group> <!-- Full -->
+    </groups>
+    <test name="Default test" duration-ms="44428" started-at="2016-02-17T14:27:55Z" finished-at="2016-02-17T14:28:39Z">
+      <class name="com.Android.Bravo.Auto_Test.TC12417_Tab">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.Android.Bravo.Auto_Test.TC12417_Tab@75d8ac9d]" name="beforeClass" is-config="true" duration-ms="13726" started-at="2016-02-17T14:27:55Z" finished-at="2016-02-17T14:28:09Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Tab()[pri:0, instance:com.Android.Bravo.Auto_Test.TC12417_Tab@75d8ac9d]" name="Tab" duration-ms="30670" started-at="2016-02-17T14:28:09Z" finished-at="2016-02-17T14:28:39Z">
+        </test-method> <!-- Tab -->
+      </class> <!-- com.Android.Bravo.Auto_Test.TC12417_Tab -->
+      <class name="com.Android.Bravo.Auto_Test.NewTest">
+        <test-method status="FAIL" signature="f()[pri:0, instance:com.Android.Bravo.Auto_Test.NewTest@642cb3dc]" name="f" duration-ms="5" started-at="2016-02-17T14:28:39Z" finished-at="2016-02-17T14:28:39Z">
+          <exception class="junit.framework.AssertionFailedError">
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at com.Android.Bravo.Auto_Test.NewTest.f(NewTest.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:702)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:894)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1219)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:768)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1188)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1113)
+	at org.testng.TestNG.run(TestNG.java:1025)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+        </test-method> <!-- f -->
+      </class> <!-- com.Android.Bravo.Auto_Test.NewTest -->
+      <class name="com.Android.Bravo.Auto_Test.SecondTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.Android.Bravo.Auto_Test.SecondTest@32d463e5]" name="f" duration-ms="4" started-at="2016-02-17T14:28:39Z" finished-at="2016-02-17T14:28:39Z">
+        </test-method> <!-- f -->
+      </class> <!-- com.Android.Bravo.Auto_Test.SecondTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
