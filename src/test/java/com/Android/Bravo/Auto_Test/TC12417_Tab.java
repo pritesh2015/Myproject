@@ -27,6 +27,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
+@SuppressWarnings("unused")
 public class TC12417_Tab extends ParentTest{
 
   @Test (groups = {"Full"})

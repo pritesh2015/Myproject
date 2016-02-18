@@ -15,6 +15,7 @@ import org.testng.annotations.AfterSuite;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 
+@SuppressWarnings("unused")
 public class ParentTest {
 	
 	AppiumDriver driver;
